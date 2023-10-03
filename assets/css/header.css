@@ -4,10 +4,10 @@
     position: fixed;
     width: 100%;
     top: 0;
-    left: °;
+    left: 0;
     background-color: var(--body-color);
     z-index: var(--z-fixed);
-    transition: box-shadow .4s,  background-color .4s;
+    transition: box-shadow .4s/* ,  background-color .4s */;
 }
 
 .nav{
@@ -67,7 +67,7 @@
     color: var(--white-color);
 }
 
-.nav__tite{
+.nav__title{
     display: block;
     font-size: var(--smaller-font-size);
     font-weight: var(--font-semi-bold);
@@ -79,7 +79,7 @@
     width: max-content;
     margin: 0 auto 3rem;
     font-size: var(--h2-font-size);
-    margin-top: 3.5rem;
+    /* margin-top: 3.5rem; */
 }
 
 .nav__name::after,
@@ -90,7 +90,7 @@
     background-color: var(--text-color-light);
     position: absolute;
     top: 50%;
-    left:  -4rem;
+    left: -4rem;
 }
 
 .nav__name::before{
@@ -104,33 +104,33 @@
     row-gap: 2.5rem;
 }
 
-.nav__link {
+.nav__link{
     position: relative;
     color: var(--text-color-light);
     font-size: var(--h3-font-size);
     font-weight: var(--font-semi-bold);
-    transition: color 0.3s;
+    transition: color .3s;
 }
 
 /* Trait initial invisible */
-.nav__link::after {
+.nav__link::after{
     content: '';
     width: 0;
     height: 2px;
     background-color: var(--white-color);
     position: absolute;
     left: 0;
-    bottom: -2px; /* Ajustez la valeur pour l'aligner sous le texte du lien */
-    transition: width 0.3s;
+    bottom: -.5rem; /* Ajustez la valeur pour l'aligner sous le texte du lien */
+    transition: width .3s;
 }
 
-.nav__link:hover {
+.nav__link:hover{
     color: var(--white-color);
 }
 
 /* Fait dérouler le trait au survol */
-.nav__link:hover::after {
-    width: 100%; /* Augmentez la largeur au survol */
+.nav__link:hover::after{
+    width: 25%; /* Augmentez la largeur au survol */
 }
 
 .nav__close{
