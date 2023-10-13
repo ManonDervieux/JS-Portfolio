@@ -3,11 +3,11 @@
 }
 
 .home__name{
-    font-size: var(--brightest-font-size);
+    font-size: var(--biggest-font-size);
     text-align: center;
 }
 
-.home__perfile{
+.home__perfil{
     position: relative;
     justify-self: center;
 }
@@ -50,7 +50,7 @@
     bottom: -.5rem;
 }
 
-.home__perfile .geometric-box{
+.home__perfil .geometric-box{
     top: 2.5rem;
     left: -.7rem;
     z-index: 10;

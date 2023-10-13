@@ -7,7 +7,7 @@
     row-gap: 0;
 }
 
-.about__perfile{
+.about__perfil{
     position: relative;
     justify-self: center;
     margin-block: 2.5rem 4.5rem;
@@ -39,7 +39,7 @@
     transition: background-color .4s;
 }
 
-.about__perfile .geometric-box{
+.about__perfil .geometric-box{
     top: 1.5rem;
     right: -2.8rem;
 }
