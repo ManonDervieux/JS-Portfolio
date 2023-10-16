@@ -1397,7 +1397,7 @@ body.dark-theme{
     height: 615px;
     top: -4rem;
     right: -5.5rem;
-    border-bottom: 6rem solid var(--first-color);
+    border-bottom: .6rem solid var(--first-color);
   }
   .about__perfil .geometric-box{
     right: -4rem;
