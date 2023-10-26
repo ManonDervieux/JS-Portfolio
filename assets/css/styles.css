@@ -108,7 +108,7 @@ img {
 /*========== Variables Dark theme ==========*/
 
 body.dark-theme{
-  --first-color: hsl(14, 80%, 50%);
+  --first-color: hsl(286, 78%, 30%);
   --black-color: hsl(0, 0%, 18%);
   --black-color-light: hsl(0, 0%, 30%);
   --title-color: hsl(0, 0%, 95%);
@@ -128,7 +128,7 @@ body.dark-theme{
 
 .dark-theme .section__title-1::after,
 .dark-theme .section__title-2::after{
-  background-color: hsla(14, 70%, 50%, .2);
+  background-color: hsla(295, 82%, 73%, 0.753);
 }
 
 .dark-theme :is(.home__arrow, .home__line, .about__line){
@@ -137,7 +137,7 @@ body.dark-theme{
 
 .dark-theme .home__description b{
   background: linear-gradient(90deg,
-    hsla(14, 80%, 50%, .3),
+    hsla(313, 72%, 73%, 0.616),
     hsla(14, 80%, 50%, 0) );
 }
 
